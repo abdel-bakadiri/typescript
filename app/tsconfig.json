@@ -1,0 +1,16 @@
+{
+    "extends": "../tsconfig-base.json",
+    "compilerOptions": {
+        "removeComments": true,
+        // "outFile": "../js/app.js"
+        // the used module format
+        "module": "CommonJS"
+    },
+    "files": [
+        "./app.ts",
+        "./game.ts"
+    ]
+    // "include": [
+    //     "./**/*"
+    // ]
+}
